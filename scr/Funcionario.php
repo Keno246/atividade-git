@@ -4,7 +4,9 @@ class Funcionario{
     private $nome;
     private $salario;
 
-
+public function getId() {
+    return $this->id;
+}
     
 }
 
